@@ -4,7 +4,7 @@ use miloschuman\highcharts\Highcharts;
 
 /* @var $this yii\web\View */
 
-$this->title = 'JobSeeker';
+$this->title = 'CRMS';
 ?>
 <div class="page-header">
     <h1><?= Html::encode($this->title) ?></h1>
