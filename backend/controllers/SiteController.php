@@ -22,7 +22,7 @@ class SiteController extends Controller {
                 'class' => AccessControl::className(),
                 'rules' => [
                     [
-                        'actions' => ['login', 'error', 'get-country'],
+                        'actions' => ['login', 'error', 'get-country', 'clear-db-cache'],
                         'allow' => true,
                     ],
                     [
@@ -89,6 +89,11 @@ class SiteController extends Controller {
     public function actionLogout() {
         Yii::$app->user->logout();
 
+        return $this->goHome();
+    }
+
+    public function actionClearDbCache() {
+        Yii::$app->cache->flush();
         return $this->goHome();
     }
 

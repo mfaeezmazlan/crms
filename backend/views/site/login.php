@@ -42,11 +42,10 @@ $this->params['breadcrumbs'][] = $this->title;
                 <div class="login-container">
                     <div class="center">
                         <h1>
-                            <i class="ace-icon fa fa-leaf green"></i>
-                            <span class="red">Job</span>
-                            <span class="white" id="id-text2">Seeker</span>
+                            <i class="ace-icon fa fa-car green"></i>
+                            <span class="red">CRMS</span>
                         </h1>
-                        <h4 class="blue" id="id-company-text">&copy; Some Name</h4>
+                        <h4 class="blue" id="id-company-text">&copy; Car Rental Management System</h4>
                     </div>
                     <div class="space-6"></div>
                     <div class="position-relative">
@@ -54,7 +53,7 @@ $this->params['breadcrumbs'][] = $this->title;
                             <div class="widget-body">
                                 <div class="widget-main">
                                     <h4 class="header blue lighter bigger">
-                                        <i class="ace-icon fa fa-coffee green"></i>
+                                        <i class="ace-icon fa fa-info-circle green"></i>
                                         Please Enter Your Information
                                     </h4>
                                     <div class="space-6"></div>

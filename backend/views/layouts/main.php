@@ -91,8 +91,8 @@ AppAsset::register($this);
                         <!-- #section:basics/footer -->
                         <div class="footer-content">
                             <span class="bigger-120">
-                                <span class="blue bolder">Job</span>
-                                Seeker &copy; <?= date('Y') ?>
+                                <span class="blue bolder">Car Rental Management System</span>
+                                (CRMS) &copy; <?= date('Y') ?>
                             </span>
                             &nbsp; &nbsp;
                             <span class="action-buttons">
