@@ -42,6 +42,10 @@ use yii\helpers\Html;
             <b class="arrow"></b>
         </li>
         <li class="" id="nav_2">
+            <?= Html::a("<i class='menu-icon fa fa-list-alt'></i><span class='menu-text'> Rent System </span>", ['system-rent/index']) ?>
+            <b class="arrow"></b>
+        </li>
+        <li class="" id="nav_3">
             <a href="#" class="dropdown-toggle">
                 <i class="menu-icon fa fa-cogs"></i>
                 <span class="menu-text">
@@ -51,7 +55,7 @@ use yii\helpers\Html;
             </a>
             <b class="arrow"></b>
             <ul class="submenu">
-                <li class="" id="nav_2_1">
+                <li class="" id="nav_3_1">
                     <?= Html::a("<span class='menu-text'> Manage User </span>", ['user/index']) ?>
                     <b class="arrow"></b>
                 </li>

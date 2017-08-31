@@ -42,7 +42,7 @@ $this->params['breadcrumbs'][] = $this->title;
                 <div class="login-container">
                     <div class="center">
                         <h1>
-                            <i class="ace-icon fa fa-car green"></i>
+                            <i class="ace-icon fa fa-list-alt green"></i>
                             <span class="red">CRMS</span>
                         </h1>
                         <h4 class="blue" id="id-company-text">&copy; Car Rental Management System</h4>
